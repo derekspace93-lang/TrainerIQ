@@ -1,0 +1,95 @@
+.backDrop{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.closeModal{
+position: absolute;
+top: 3px;
+right: 8px;    
+}
+
+.modalWindow{
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;    
+  gap: 8px;
+   height: 100%;
+  width: 100%;
+}
+
+.placeInfo{
+display: flex;
+flex-direction: column;
+gap:5px;
+align-items: center;
+justify-content: flex-start;
+background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);  
+border-radius: 10px;
+padding: 20px;
+height: 80%;
+    width: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.placeDetailsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.placeDetailsImageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.breedDetailsImageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image{
+width: 200px;
+height: 200px;    
+}
+
+.breedImage{
+width: 150px;
+height: 150px;  
+border-radius: 15px;  
+}
+
+.name{
+ font-weight: 700;   
+}
+

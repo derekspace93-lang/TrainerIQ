@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["Explore", "Discover", "Uncover"];
+  const words = ["Measure", "Analyze", "Decide"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Web based app for <br /> all things dog related
+            A Web based app for <br />Dog training insights
           </motion.p>
           <motion.div
             variants={variants}
@@ -71,7 +71,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Web based app for <br /> all things dog related
+            A Web based app for <br /> Dog training insights
           </motion.p>
           <motion.div
             variants={variants}

@@ -1,9 +1,18 @@
 import css from "./BreedModal.module.css";
 import { ThreeCircles } from "react-loader-spinner";
+import loadImg from "../sections/loadImg.png";
 
-export const BreedModal = ({ isOpen, stateSetter, loadingStatus, breed, isError }) => {
+export const BreedModal = ({
+  isOpen,
+  stateSetter,
+  loadingStatus,
+  breed,
+  isError,
+  
+}) => {
   const handleInfoClose = () => {
     stateSetter(false);
+    
   };
 
   return (
@@ -66,16 +75,14 @@ export const BreedModal = ({ isOpen, stateSetter, loadingStatus, breed, isError 
           ) : (
             <div>
               {isError === false && (
-                <ThreeCircles
-                  visible={true}
-                  height="60"
-                  width="60"
-                  color="#ffff"
-                  radius="9"
-                  ariaLabel="three-dots-loading"
-                  wrapperStyle={{}}
-                  wrapperClass={{}}
-                />
+                <div className={css.centerStyle}>
+                  <img
+                    className={css.loadImg}
+                    src={loadImg}
+                    alt="Loading Diagram"
+                  />
+                  <p style={{ fontWeight: 700 }}>Loading Breed Data...</p>
+                </div>
               )}
             </div>
           )}

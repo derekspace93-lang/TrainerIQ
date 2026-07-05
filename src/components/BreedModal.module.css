@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .modalWindow{
@@ -35,7 +36,7 @@ display: flex;
 flex-direction: column;
 gap:5px;
 align-items: center;
-background: linear-gradient(135deg, #2b184f 0%, #6b2a6f 25%, #c05074 50%, #f08a7c 75%, #f6c3a2 100%);
+background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
 height: 70%;
 width: 90%;    
 border-radius: 10px;
@@ -146,4 +147,16 @@ text-align: center;
 
 .originInfo{
 text-align: center;    
+}
+
+.centerStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loadImg{
+  width: 200px;
+  height: 200px;
 }

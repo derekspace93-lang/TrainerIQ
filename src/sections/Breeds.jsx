@@ -1,15 +1,30 @@
 import css from './Breeds.module.css';
 import { useState, useEffect } from 'react';
-import { getCanineBreeds, getCanineByBreed } from "./Endpoints/Endpoints";
+import {
+  getCanineBreeds,
+  getCanineByBreed
+} from "./Endpoints/Endpoints";
 import { ThreeCircles } from "react-loader-spinner";
 import { BreedModal } from "../components/BreedModal";
+import { BreedTraitsModal } from "../components/BreedTraitsModal";
+import countries from './countries.json'
+import dogBreeds from "./allDogs.json";
+import Notiflix from "notiflix";
+import loadImg from "../sections/loadImg.png";
 
 
-const Breeds = () => {
-
+const Breeds = ({
+  canineTraits,
+  handleDogBreedSelect,
+  traitsModalState,
+  setTraitsModalState,
+  myTrainerModalStateSetter,
+  setSelectedDogBreed,
+  trainerModalStateSetter,
+}) => {
   const [canineBreeds, setCanineBreeds] = useState([]);
   const [canineBreed, setCanineBreed] = useState({});
-  const [filterWord, setFilterWord] = useState('');
+  const [filterWord, setFilterWord] = useState("");
   const [filteredBreeds, setFilteredBreeds] = useState([]);
   const [areBreedsLoading, setBreedsLoadingStatus] = useState();
   const [isBreedLoading, setBreedLoadingStatus] = useState(false);
@@ -21,7 +36,7 @@ const Breeds = () => {
     evt.preventDefault();
     //console.log(evt.target.value);
     setFilterWord(evt.target.value);
-    
+
     const filterTemp = canineBreeds.filter(
       (breed) =>
         breed.name
@@ -31,7 +46,7 @@ const Breeds = () => {
     );
     //console.log(filterTemp);
     setFilteredBreeds([...filterTemp]);
-  }
+  };
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -40,50 +55,50 @@ const Breeds = () => {
   };
 
   useEffect(() => {
-      setBreedsLoadingError(false);
-      setBreedsLoadingStatus(true);
-      getCanineBreeds()
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          return response.json();
-        })
-        .then((response) => {
-          //console.log(response);
-          //setBreedsLoadingError(false);
-          setCanineBreeds([...response]);
-          setBreedsLoadingStatus(false);
-        })
-        .catch((error) => {
-          setBreedsLoadingStatus(false);
-          setBreedsLoadingError(true);
-          console.error(`Error message ${error}`);
-        });
-    }, []);
-  
+    setBreedsLoadingError(false);
+    setBreedsLoadingStatus(true);
+    getCanineBreeds()
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((response) => {
+        //console.log(response);
+        //setBreedsLoadingError(false);
+        setCanineBreeds([...response]);
+        setBreedsLoadingStatus(false);
+      })
+      .catch((error) => {
+        setBreedsLoadingStatus(false);
+        setBreedsLoadingError(true);
+        console.error(`Error message ${error}`);
+      });
+  }, []);
+
   const handleTryAgain = () => {
     setBreedsLoadingError(false);
     setBreedsLoadingStatus(true);
-      getCanineBreeds()
-        .then((response) => {
-          //console.log(response);
-          if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          return response.json();
-        })
-        .then((response) => {
-          setCanineBreeds([...response]);
-          setBreedsLoadingStatus(false);
-          //console.log(response);
-        })
-        .catch((error) => {
-          setBreedsLoadingStatus(false);
-          setBreedsLoadingError(true);
-          console.error(`Error message ${error}`);
-        });
-  }
+    getCanineBreeds()
+      .then((response) => {
+        //console.log(response);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((response) => {
+        setCanineBreeds([...response]);
+        setBreedsLoadingStatus(false);
+        //console.log(response);
+      })
+      .catch((error) => {
+        setBreedsLoadingStatus(false);
+        setBreedsLoadingError(true);
+        console.error(`Error message ${error}`);
+      });
+  };
 
   const handleBreedSelect = (name, evt) => {
     setBreedLoadingError(false);
@@ -99,7 +114,7 @@ const Breeds = () => {
       })
       .then((response) => {
         setCanineBreed({ ...response[0] });
-        
+
         setBreedLoadingStatus(false);
         //console.log(response);
       })
@@ -109,8 +124,7 @@ const Breeds = () => {
         console.error(`Error message ${error}`);
       });
   };
-  
-  
+
   return (
     <section className="c-space section-spacing" id="breeds">
       <h2 className={css.textHeading}>Breeds</h2>
@@ -123,6 +137,27 @@ const Breeds = () => {
             breed={canineBreed}
             isError={isBreedLoadingError}
           />
+          <BreedTraitsModal
+            isOpen={traitsModalState}
+            stateSetter={setTraitsModalState}
+            traits={canineTraits}
+            myTrainerModalStateSetter={myTrainerModalStateSetter}
+            setSelectedDogBreed={setSelectedDogBreed}
+            trainerModalStateSetter={trainerModalStateSetter}
+          />
+          <div className={css.selectorContainer}>
+            <div className={css.selectorWrapper}>
+              <label>Select Breed For Training</label>
+              <select className={css.selector} onChange={handleDogBreedSelect}>
+                <option disabled selected>
+                  Select a Dog Breed
+                </option>
+                {dogBreeds.map((breed) => {
+                  return <option value={breed.name}>{breed.name}</option>;
+                })}
+              </select>
+            </div>
+          </div>
           <form
             className={css.form}
             onChange={handleChange}
@@ -141,16 +176,12 @@ const Breeds = () => {
           {areBreedsLoading && (
             <div className={css.backDrop}>
               <div className={css.centerStyle}>
-                <ThreeCircles
-                  visible={true}
-                  height="60"
-                  width="60"
-                  color="#ffff"
-                  radius="9"
-                  ariaLabel="three-dots-loading"
-                  wrapperStyle={{}}
-                  wrapperClass={{}}
+                <img
+                  className={css.loadImg}
+                  src={loadImg}
+                  alt="Loading Diagram"
                 />
+                <p style={{ fontWeight: 700 }}>Loading Breeds...</p>
               </div>
             </div>
           )}

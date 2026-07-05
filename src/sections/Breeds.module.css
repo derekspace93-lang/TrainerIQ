@@ -44,12 +44,43 @@ height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .centerStyle{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.loadImg{
+  width: 200px;
+  height: 200px;
+}
+
+.selectorContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.selectorWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  font-size: 18px;
+}
+
+.selector{
+background-color: #030412;
+  color: #ffff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;  
 }
 
 .form{

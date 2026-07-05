@@ -1,0 +1,885 @@
+[
+    {
+        "id": "ab261a80-c9cc-4e65-8f32-c13cc713455a",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        151.2138253,
+                        -33.911875
+                    ],
+                    [
+                        151.2137839,
+                        -33.9118984
+                    ],
+                    [
+                        151.2138289,
+                        -33.9119457
+                    ],
+                    [
+                        151.2138609,
+                        -33.9119831
+                    ],
+                    [
+                        151.2138853,
+                        -33.9119691
+                    ],
+                    [
+                        151.2139507,
+                        -33.9120473
+                    ],
+                    [
+                        151.2140371,
+                        -33.9119935
+                    ],
+                    [
+                        151.2139333,
+                        -33.9118875
+                    ],
+                    [
+                        151.2138703,
+                        -33.9119203
+                    ],
+                    [
+                        151.2138253,
+                        -33.911875
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "id": "ab261a80-c9cc-4e65-8f32-c13cc713455a",
+            "version": 7,
+            "sources": [
+                {
+                    "property": "",
+                    "dataset": "meta",
+                    "record_id": "574100652605795",
+                    "update_time": "2026-04-27T00:00:00.000Z",
+                    "confidence": 0.6550432443618774
+                },
+                {
+                    "property": "/properties/confidence",
+                    "dataset": "Overture",
+                    "record_id": null,
+                    "update_time": "2026-06-11T11:57:15Z",
+                    "confidence": null
+                }
+            ],
+            "names": {
+                "primary": "Game on Dogs",
+                "common": null,
+                "rules": null
+            },
+            "categories": {
+                "primary": "dog_trainer",
+                "alternate": []
+            },
+            "confidence": 0.9206599462032318,
+            "websites": [],
+            "socials": [
+                "https://www.facebook.com/574100652605795"
+            ],
+            "emails": [],
+            "phones": [],
+            "brand": {
+                "names": {
+                    "primary": "Game On Dogs",
+                    "common": null,
+                    "rules": null
+                },
+                "wikidata": null
+            },
+            "addresses": [
+                {
+                    "freeform": "29 Lenthall St",
+                    "locality": "Sydney",
+                    "postcode": "2033",
+                    "region": "NSW",
+                    "country": "AU"
+                }
+            ],
+            "building": {
+                "id": "1da9096a-1149-46b5-97ea-3dd7351cfbf8",
+                "distance": 2.036108926943377,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.2138253,
+                                -33.911875
+                            ],
+                            [
+                                151.2137839,
+                                -33.9118984
+                            ],
+                            [
+                                151.2138289,
+                                -33.9119457
+                            ],
+                            [
+                                151.2138609,
+                                -33.9119831
+                            ],
+                            [
+                                151.2138853,
+                                -33.9119691
+                            ],
+                            [
+                                151.2139507,
+                                -33.9120473
+                            ],
+                            [
+                                151.2140371,
+                                -33.9119935
+                            ],
+                            [
+                                151.2139333,
+                                -33.9118875
+                            ],
+                            [
+                                151.2138703,
+                                -33.9119203
+                            ],
+                            [
+                                151.2138253,
+                                -33.911875
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_name": "Game on Dogs",
+            "ext_building": {
+                "id": "1da9096a-1149-46b5-97ea-3dd7351cfbf8",
+                "distance": 2.036108926943377,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.2138253,
+                                -33.911875
+                            ],
+                            [
+                                151.2137839,
+                                -33.9118984
+                            ],
+                            [
+                                151.2138289,
+                                -33.9119457
+                            ],
+                            [
+                                151.2138609,
+                                -33.9119831
+                            ],
+                            [
+                                151.2138853,
+                                -33.9119691
+                            ],
+                            [
+                                151.2139507,
+                                -33.9120473
+                            ],
+                            [
+                                151.2140371,
+                                -33.9119935
+                            ],
+                            [
+                                151.2139333,
+                                -33.9118875
+                            ],
+                            [
+                                151.2138703,
+                                -33.9119203
+                            ],
+                            [
+                                151.2138253,
+                                -33.911875
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_place_geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.21398907,
+                    -33.9120463
+                ]
+            }
+        }
+    },
+    {
+        "id": "25846b59-3bfc-45d0-946e-9c9ab1caeb8c",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        151.1986726,
+                        -33.823086
+                    ],
+                    [
+                        151.1985975,
+                        -33.8230877
+                    ],
+                    [
+                        151.1986011,
+                        -33.8232002
+                    ],
+                    [
+                        151.1986762,
+                        -33.8231985
+                    ],
+                    [
+                        151.1986726,
+                        -33.823086
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "id": "25846b59-3bfc-45d0-946e-9c9ab1caeb8c",
+            "version": 7,
+            "sources": [
+                {
+                    "property": "",
+                    "dataset": "Microsoft",
+                    "record_id": "2251799821512064",
+                    "update_time": "2025-09-02T05:11:58.780Z",
+                    "confidence": 0.85
+                },
+                {
+                    "property": "/properties/confidence",
+                    "dataset": "Overture",
+                    "record_id": null,
+                    "update_time": "2026-06-11T11:57:15Z",
+                    "confidence": null
+                }
+            ],
+            "names": {
+                "primary": "Positive Puppies",
+                "common": null,
+                "rules": null
+            },
+            "categories": {
+                "primary": "dog_trainer",
+                "alternate": []
+            },
+            "confidence": 0.85,
+            "websites": [],
+            "socials": [],
+            "emails": [],
+            "phones": [
+                "0431542704"
+            ],
+            "addresses": [
+                {
+                    "freeform": "64 Atchison Street",
+                    "locality": "Crows Nest",
+                    "postcode": "2065",
+                    "region": "New South Wales",
+                    "country": "AU"
+                }
+            ],
+            "building": {
+                "id": "37726b29-6a13-4e83-a7c2-8755d19defda",
+                "distance": 2.910304596167564,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1986726,
+                                -33.823086
+                            ],
+                            [
+                                151.1985975,
+                                -33.8230877
+                            ],
+                            [
+                                151.1986011,
+                                -33.8232002
+                            ],
+                            [
+                                151.1986762,
+                                -33.8231985
+                            ],
+                            [
+                                151.1986726,
+                                -33.823086
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_name": "Positive Puppies",
+            "ext_building": {
+                "id": "37726b29-6a13-4e83-a7c2-8755d19defda",
+                "distance": 2.910304596167564,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1986726,
+                                -33.823086
+                            ],
+                            [
+                                151.1985975,
+                                -33.8230877
+                            ],
+                            [
+                                151.1986011,
+                                -33.8232002
+                            ],
+                            [
+                                151.1986762,
+                                -33.8231985
+                            ],
+                            [
+                                151.1986726,
+                                -33.823086
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_place_geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.1986838,
+                    -33.8232239
+                ]
+            }
+        }
+    },
+    {
+        "id": "76d8a751-2e44-4a14-a943-02beb0771f79",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        151.1647879,
+                        -34.0365727
+                    ],
+                    [
+                        151.1647812,
+                        -34.0367014
+                    ],
+                    [
+                        151.1649392,
+                        -34.0367071
+                    ],
+                    [
+                        151.1649483,
+                        -34.0365318
+                    ],
+                    [
+                        151.1648439,
+                        -34.0365281
+                    ],
+                    [
+                        151.1648415,
+                        -34.0365746
+                    ],
+                    [
+                        151.1647879,
+                        -34.0365727
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "id": "76d8a751-2e44-4a14-a943-02beb0771f79",
+            "version": 8,
+            "sources": [
+                {
+                    "property": "",
+                    "dataset": "meta",
+                    "record_id": "103863818662596",
+                    "update_time": "2026-04-27T00:00:00.000Z",
+                    "confidence": 0.13050957024097443
+                },
+                {
+                    "property": "/properties/confidence",
+                    "dataset": "Overture",
+                    "record_id": null,
+                    "update_time": "2026-06-11T11:57:15Z",
+                    "confidence": null
+                }
+            ],
+            "names": {
+                "primary": "Mr Pooch Dog Training and Behaviour",
+                "common": null,
+                "rules": null
+            },
+            "categories": {
+                "primary": "dog_trainer",
+                "alternate": []
+            },
+            "confidence": 0.8000172011554241,
+            "websites": [],
+            "socials": [
+                "https://www.facebook.com/103863818662596"
+            ],
+            "emails": [],
+            "phones": [
+                "+61450248729"
+            ],
+            "brand": {
+                "names": {
+                    "primary": null,
+                    "common": null,
+                    "rules": null
+                },
+                "wikidata": null
+            },
+            "addresses": [
+                {
+                    "freeform": "27 Greenhills St",
+                    "locality": "Sydney",
+                    "postcode": "2230",
+                    "region": "NSW",
+                    "country": "AU"
+                }
+            ],
+            "building": {
+                "id": "4d2d7d22-79f7-4985-aa8d-d44654bd1895",
+                "distance": 0,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1647879,
+                                -34.0365727
+                            ],
+                            [
+                                151.1647812,
+                                -34.0367014
+                            ],
+                            [
+                                151.1649392,
+                                -34.0367071
+                            ],
+                            [
+                                151.1649483,
+                                -34.0365318
+                            ],
+                            [
+                                151.1648439,
+                                -34.0365281
+                            ],
+                            [
+                                151.1648415,
+                                -34.0365746
+                            ],
+                            [
+                                151.1647879,
+                                -34.0365727
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_name": "Mr Pooch Dog Training and Behaviour",
+            "ext_building": {
+                "id": "4d2d7d22-79f7-4985-aa8d-d44654bd1895",
+                "distance": 0,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1647879,
+                                -34.0365727
+                            ],
+                            [
+                                151.1647812,
+                                -34.0367014
+                            ],
+                            [
+                                151.1649392,
+                                -34.0367071
+                            ],
+                            [
+                                151.1649483,
+                                -34.0365318
+                            ],
+                            [
+                                151.1648439,
+                                -34.0365281
+                            ],
+                            [
+                                151.1648415,
+                                -34.0365746
+                            ],
+                            [
+                                151.1647879,
+                                -34.0365727
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_place_geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.16486522,
+                    -34.03661587
+                ]
+            }
+        }
+    },
+     {
+        "id": "486a3309-8f7c-47fe-bf9f-d1f0f4823da3",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        151.076505,
+                        -33.9757251
+                    ],
+                    [
+                        151.0766734,
+                        -33.9757591
+                    ],
+                    [
+                        151.0767063,
+                        -33.9756468
+                    ],
+                    [
+                        151.0765379,
+                        -33.9756129
+                    ],
+                    [
+                        151.076505,
+                        -33.9757251
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "id": "486a3309-8f7c-47fe-bf9f-d1f0f4823da3",
+            "version": 8,
+            "sources": [
+                {
+                    "property": "",
+                    "dataset": "meta",
+                    "record_id": "1980892792193659",
+                    "update_time": "2026-04-27T00:00:00.000Z",
+                    "confidence": 0.2510189712047577
+                },
+                {
+                    "property": "/properties/confidence",
+                    "dataset": "Overture",
+                    "record_id": null,
+                    "update_time": "2026-06-11T11:57:15Z",
+                    "confidence": null
+                }
+            ],
+            "names": {
+                "primary": "Bond & Beyond Dog Specialist",
+                "common": null,
+                "rules": null
+            },
+            "categories": {
+                "primary": "dog_trainer",
+                "alternate": []
+            },
+            "confidence": 0.8277343633770943,
+            "websites": [],
+            "socials": [
+                "https://www.facebook.com/1980892792193659"
+            ],
+            "emails": [],
+            "phones": [
+                "+61401225405"
+            ],
+            "brand": {
+                "names": {
+                    "primary": "Bond Beyond",
+                    "common": null,
+                    "rules": null
+                },
+                "wikidata": null
+            },
+            "addresses": [
+                {
+                    "freeform": "21 Woronora Pde",
+                    "locality": "Sydney",
+                    "postcode": "2223",
+                    "region": "NSW",
+                    "country": "AU"
+                }
+            ],
+            "building": {
+                "id": "bb25ccfa-74b4-4054-8e05-430b546d201d",
+                "distance": 6.837160672258165,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.076505,
+                                -33.9757251
+                            ],
+                            [
+                                151.0766734,
+                                -33.9757591
+                            ],
+                            [
+                                151.0767063,
+                                -33.9756468
+                            ],
+                            [
+                                151.0765379,
+                                -33.9756129
+                            ],
+                            [
+                                151.076505,
+                                -33.9757251
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_name": "Bond & Beyond Dog Specialist",
+            "ext_building": {
+                "id": "bb25ccfa-74b4-4054-8e05-430b546d201d",
+                "distance": 6.837160672258165,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.076505,
+                                -33.9757251
+                            ],
+                            [
+                                151.0766734,
+                                -33.9757591
+                            ],
+                            [
+                                151.0767063,
+                                -33.9756468
+                            ],
+                            [
+                                151.0765379,
+                                -33.9756129
+                            ],
+                            [
+                                151.076505,
+                                -33.9757251
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_place_geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0764563,
+                    -33.97563095
+                ]
+            }
+        }
+    },
+     {
+        "id": "0cba98c7-2afd-446a-ba9f-4b9e6e37afbe",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        151.1273903,
+                        -33.9064751
+                    ],
+                    [
+                        151.1272334,
+                        -33.9063555
+                    ],
+                    [
+                        151.1272007,
+                        -33.9063571
+                    ],
+                    [
+                        151.1271389,
+                        -33.9064284
+                    ],
+                    [
+                        151.1272226,
+                        -33.9064923
+                    ],
+                    [
+                        151.1272505,
+                        -33.9064646
+                    ],
+                    [
+                        151.1273345,
+                        -33.9065291
+                    ],
+                    [
+                        151.1273903,
+                        -33.9064751
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "id": "0cba98c7-2afd-446a-ba9f-4b9e6e37afbe",
+            "version": 9,
+            "sources": [
+                {
+                    "property": "",
+                    "dataset": "meta",
+                    "record_id": "107579251571222",
+                    "update_time": "2026-04-27T00:00:00.000Z",
+                    "confidence": 0.8053480386734009
+                },
+                {
+                    "property": "/properties/confidence",
+                    "dataset": "Overture",
+                    "record_id": null,
+                    "update_time": "2026-06-11T11:57:15Z",
+                    "confidence": null
+                }
+            ],
+            "names": {
+                "primary": "DogTech - Dog Behaviour Specialists (by appointment only)",
+                "common": null,
+                "rules": null
+            },
+            "categories": {
+                "primary": "dog_trainer",
+                "alternate": []
+            },
+            "confidence": 0.8053480386734009,
+            "websites": [],
+            "socials": [
+                "https://www.facebook.com/107579251571222"
+            ],
+            "emails": [],
+            "phones": [
+                "+61280185200"
+            ],
+            "brand": {
+                "names": {
+                    "primary": "DogTech",
+                    "common": null,
+                    "rules": null
+                },
+                "wikidata": null
+            },
+            "addresses": [
+                {
+                    "freeform": "36-38 Canterbury Rd",
+                    "locality": "Sydney",
+                    "postcode": "2193",
+                    "region": "NSW",
+                    "country": "AU"
+                }
+            ],
+            "building": {
+                "id": "f9ba90bf-868e-44c9-9a13-ff2f832e5699",
+                "distance": 0,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1273903,
+                                -33.9064751
+                            ],
+                            [
+                                151.1272334,
+                                -33.9063555
+                            ],
+                            [
+                                151.1272007,
+                                -33.9063571
+                            ],
+                            [
+                                151.1271389,
+                                -33.9064284
+                            ],
+                            [
+                                151.1272226,
+                                -33.9064923
+                            ],
+                            [
+                                151.1272505,
+                                -33.9064646
+                            ],
+                            [
+                                151.1273345,
+                                -33.9065291
+                            ],
+                            [
+                                151.1273903,
+                                -33.9064751
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_name": "DogTech - Dog Behaviour Specialists (by appointment only)",
+            "ext_building": {
+                "id": "f9ba90bf-868e-44c9-9a13-ff2f832e5699",
+                "distance": 0,
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                151.1273903,
+                                -33.9064751
+                            ],
+                            [
+                                151.1272334,
+                                -33.9063555
+                            ],
+                            [
+                                151.1272007,
+                                -33.9063571
+                            ],
+                            [
+                                151.1271389,
+                                -33.9064284
+                            ],
+                            [
+                                151.1272226,
+                                -33.9064923
+                            ],
+                            [
+                                151.1272505,
+                                -33.9064646
+                            ],
+                            [
+                                151.1273345,
+                                -33.9065291
+                            ],
+                            [
+                                151.1273903,
+                                -33.9064751
+                            ]
+                        ]
+                    ]
+                }
+            },
+            "ext_place_geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.12721493,
+                    -33.90637205
+                ]
+            }
+        }
+    }
+]

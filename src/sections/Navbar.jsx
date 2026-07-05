@@ -26,10 +26,10 @@ function Navigation({ onLinkClick }) {
       <li className="nav-li">
         <a
           className="nav-link"
-          href="#images"
-          onClick={(e) => onLinkClick && onLinkClick(e, "#images")}
+          href="#trainer-details"
+          onClick={(e) => onLinkClick && onLinkClick(e, "#trainer-details")}
         >
-          Images
+          Trainer Details
         </a>
       </li>
     </ul>

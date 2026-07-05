@@ -1,0 +1,91 @@
+.backDrop{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.modalWindow{
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;    
+  gap: 8px;
+   height: 100%;
+  width: 100%;
+}
+
+.closeModal{
+position: absolute;
+top: 3px;
+right: 8px;    
+}
+
+.canineInfo{
+padding: 50px;
+display: flex;
+flex-direction: column;
+gap:5px;
+align-items: center;
+background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+height: 70%;
+width: 90%;    
+border-radius: 10px;
+ overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.wrapperButton {
+    background-color: #5c33cc;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    cursor: pointer;
+}
+
+.imageWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name{
+ font-weight: 700;   
+}
+
+.infoImage{
+width: 150px;
+height: 150px;    
+}
+
+.traitsWrapper{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}

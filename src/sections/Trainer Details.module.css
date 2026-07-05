@@ -15,7 +15,7 @@ padding: 30px;
 }
 
 .imagesGallery{
-    background: linear-gradient(135deg, #2b184f 0%, #6b2a6f 25%, #c05074 50%, #f08a7c 75%, #f6c3a2 100%);
+    background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
     width: 800px;
     height: 500px;
     position: relative;
@@ -27,6 +27,23 @@ padding: 30px;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.selectorWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  font-size: 18px;
+}
+
+.selector{
+background-color: #030412;
+  color: #ffff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;  
 }
 
 .backDrop {
@@ -42,9 +59,11 @@ padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 
-.imageList{
+
+.myTrainersList{
     display: flex;
 justify-content: center;
 align-items: center;
@@ -56,7 +75,7 @@ flex-wrap: wrap;
     padding: 10px;
 }
 
-.imageListItem{
+.myTrainersListItem{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,11 +88,68 @@ flex-wrap: wrap;
     transition: transform 0.3s ease, filter 0.3s ease;    
 }
 
-.imageListItem:hover{
+.myTrainersListItem:hover{
   cursor: pointer;
   transform: translateY(-5px); /* Slight elevation */
   filter: drop-shadow(0px 16px 24px #5c33cc);
 }
+
+.trainersList{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;  
+ height: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.trainersListItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;    
+}
+
+.trainersListItem:hover{
+  cursor: pointer;
+  transform: translateY(-5px); /* Slight elevation */
+  filter: drop-shadow(0px 16px 24px #5c33cc);
+}
+
+.infoMsgWrapper{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;  
+ height: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.errorWrapper{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;  
+ height: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+
 
 .image{
 width: 200px;
