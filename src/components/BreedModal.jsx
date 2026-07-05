@@ -76,12 +76,16 @@ export const BreedModal = ({
             <div>
               {isError === false && (
                 <div className={css.centerStyle}>
-                  <img
-                    className={css.loadImg}
-                    src={loadImg}
-                    alt="Loading Diagram"
+                  <ThreeCircles
+                    visible={true}
+                    height="60"
+                    width="60"
+                    color="#ffff"
+                    radius="9"
+                    ariaLabel="three-dots-loading"
+                    wrapperStyle={{}}
+                    wrapperClass={{}}
                   />
-                  <p style={{ fontWeight: 700 }}>Loading Breed Data...</p>
                 </div>
               )}
             </div>

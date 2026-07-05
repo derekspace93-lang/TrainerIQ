@@ -11,6 +11,7 @@ import Notiflix from "notiflix";
 import trainerImg from './trainerImg.png'
 import area from "@turf/area";
 import { getMyTrainerWeather } from "./Endpoints/Endpoints";
+import loadImg from "./loadImg.png";
 
 
 const TrainerDetails = ({
@@ -1385,7 +1386,22 @@ A different trainer with stronger performance in this area would likely provide 
               })}
             </select>
           </div>
-          {(isWeatherLoading || areTrainersLoading || isTrainerLoading) && (
+          {(isWeatherLoading || isTrainerLoading) && (
+            <div className={css.backDrop}>
+              <div className={css.centerStyle}>
+                <img
+                  className={css.loadImg}
+                  src={loadImg}
+                  alt="Loading Diagram"
+                />
+
+                <p style={{ fontWeight: 700 }}>
+                  Calculating Trainer Suitability...
+                </p>
+              </div>
+            </div>
+          )}
+          {areTrainersLoading && (
             <div className={css.backDrop}>
               <div className={css.centerStyle}>
                 <ThreeCircles
